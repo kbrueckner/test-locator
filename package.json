@@ -1,0 +1,35 @@
+{
+  "name": "test-locator",
+  "version": "0.1.0",
+  "description": "Util to help creating UI test locators.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.json",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "locator",
+    "test"
+  ],
+  "author": "Kenji Brueckner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.14.0",
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "jest": "^27.0.1",
+    "save-dev": "0.0.1-security",
+    "ts-jest": "^27.0.1",
+    "typescript": "^4.3.2"
+  }
+}

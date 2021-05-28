@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "incremental": true,
+        "noEmit": false,
+        "outDir": "build",
+        "declaration": true
+    },
+    "exclude": [
+        "src/**/*.test.*",
+        "node_mosules"
+    ]
+}

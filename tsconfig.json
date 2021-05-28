@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "@types/jest"
+        ],
+        "typeRoots": [
+            "./tests/types.d.ts",
+            "node_modules/@types"
+        ],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "inlineSourceMap": true
+    }
+}
