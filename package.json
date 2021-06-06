@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --config jest.config.json",
+    "test:coverage": "jest --config jest.config.json --coverage",
     "build": "tsc -p tsconfig.build.json"
   },
   "repository": {
@@ -15,7 +16,7 @@
     "locator",
     "test"
   ],
-  "author": "Kenji Brueckner",
+  "author": "Kenji Brückner <kenji.brueckner@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kbrueckner/test-locator/issues"
