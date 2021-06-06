@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n/a.git"
+    "url": "git+https://github.com/kbrueckner/test-locator"
   },
   "keywords": [
     "locator",
@@ -18,9 +18,9 @@
   "author": "Kenji Brueckner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/n/a/issues"
+    "url": "https://github.com/kbrueckner/test-locator/issues"
   },
-  "homepage": "https://github.com/n/a#readme",
+  "homepage": "https://github.com/kbrueckner/test-locator",
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.14.0",
     "@types/jest": "^26.0.23",
