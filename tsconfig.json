@@ -19,6 +19,6 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "noEmit": true,
-        "inlineSourceMap": true
+        "inlineSourceMap": false
     }
 }

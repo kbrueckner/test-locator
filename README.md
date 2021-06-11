@@ -3,7 +3,7 @@ When writing automatted UI regression tests with i.e. Playwright, Cypress or Sel
 
 This util aims to help you to tackle this challenge. It generates locators in a style inspired by the [BEM methodology](http://getbem.com/). The advantage is that it can be used in any kind of HTML element attribute such as id, class or data-*.
 
-## Instalation
+## Installation
 
 ```
 npm install --save test-locator
