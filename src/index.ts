@@ -1,6 +1,12 @@
 type ElementType = 'button' | 'input' | 'select' | 'list' | 'listitem' | 'flyout' | 'overlay' | 'title' | 'page';
 
+export const format = (identifier: string): string => identifier.toLowerCase().replace(/\s+/ig, '-');
+
 export default (identifier: string | string[], elementType?: ElementType): string => {
     const identifiers = Array.isArray(identifier) ? identifier : [identifier];
-    return `${identifiers.join('__')}${elementType ? `--${elementType}` : ''}`;
+    return `${
+        identifiers
+            .map((entry) => format(entry))
+            .join('__')
+    }${elementType ? `--${elementType}` : ''}`;
 };

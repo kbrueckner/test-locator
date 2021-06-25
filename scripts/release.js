@@ -17,7 +17,6 @@ readline.question('Is the set version correct for this release? (y/n): ', (answe
     }
 
     const releasePackage = { ...package };
-    delete releasePackage.dependencies;
     delete releasePackage.devDependencies;
     delete releasePackage.scripts;
 

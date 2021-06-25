@@ -16,7 +16,8 @@
   },
   "keywords": [
     "locator",
-    "test"
+    "test",
+    "bem"
   ],
   "author": "Kenji Brückner <kenji.brueckner@gmail.com>",
   "license": "MIT",
@@ -24,20 +25,19 @@
     "url": "https://github.com/kbrueckner/test-locator/issues"
   },
   "homepage": "https://github.com/kbrueckner/test-locator",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.14.0",
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "eslint": "^7.27.0",
-    "jest": "^27.0.1",
-    "ts-jest": "^27.0.1",
-    "typescript": "^4.3.2"
-  },
-  "devDependencies": {
     "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0"
+    "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.1",
+    "ts-jest": "^27.0.1",
+    "typescript": "^4.3.2"
   }
 }
