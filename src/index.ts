@@ -1,4 +1,5 @@
-type ElementType = 'button' | 'input' | 'select' | 'list' | 'listitem' | 'flyout' | 'overlay' | 'title' | 'page';
+type ElementType = 'button' | 'input' | 'select' | 'list' | 'listitem' | 'flyout'
+                   | 'overlay' | 'title' | 'page' | 'drag' | 'drop';
 
 export const format = (identifier: string): string => identifier.toLowerCase().replace(/\s+/ig, '-');
 
