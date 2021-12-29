@@ -1,6 +1,6 @@
 /* eslint-env jest */
 
-import locator, { format } from './index';
+import locator, { format, ELEMENT_TYPE } from './index';
 
 describe('test-locator', () => {
     describe('format', () => {
@@ -24,6 +24,7 @@ describe('test-locator', () => {
 
         test('simple locator with element type', () => {
             expect(locator('my-locator', 'button')).toEqual('my-locator--button');
+            expect(locator('my-locator', ELEMENT_TYPE.BUTTON)).toEqual(`my-locator--${ELEMENT_TYPE.BUTTON}`);
         });
 
         test('chained locator with element type', () => {
